@@ -1,6 +1,6 @@
 // Title: Basic Ofstream
 // Purpose: Practice ofstream to create file with ios::app mode to keep old input while inputing new input
-// Class: CSC 2430 Winter 2022
+// Class: Enjoy the process
 // Author: Fransiskus Agapa
 
 #include <iostream>
