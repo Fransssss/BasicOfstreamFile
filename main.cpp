@@ -20,8 +20,8 @@ int main() {
     ofstream file ("Hi_Champion.txt", std::ios::app);     // create a file named Hi_Champion - app mode lets user to add input without losing old data
     string input;
 
+    cout << " Input data to be added to file: " << endl;
     std::getline(cin,input);
-
     file << input << endl;
     cout << " Input added to file " << endl;
 
