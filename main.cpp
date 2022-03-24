@@ -10,13 +10,11 @@
 using std::cout;
 using std::endl;
 using std::cin;
-using std::fstream;
 using std::ofstream;
-using std::ifstream;
 using std::string;
 
-int main() {
-    //ofstream file;
+int main() 
+{
     ofstream file ("Hi_Champion.txt", std::ios::app);     // create a file named Hi_Champion - app mode lets user to add input without losing old data
     string input;
 
